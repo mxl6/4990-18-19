@@ -1,0 +1,30 @@
+getwd ()
+setwd("/Users/mintwealth/documents/4990")
+getwd()
+dir()
+All=read.csv("S17_All.csv")
+All
+class(All)
+attributes(All)
+dim(All)
+nrow(All)
+names(All)
+rownames(All)
+is.numeric(All)
+
+library(geomorph)
+data("plethodon")
+plethodon
+class(plethodon)
+attributes(plethodon)
+dim(plethdon)
+nrow(plethodon)
+names(plethodon)
+rownames(plethodon)
+is.numeric(plethodon)
+
+#let's go from 2d to 3d
+dim(All)
+#141 down, and 43 across
+arrayspecs(All, 141, 43)
+#annnnd we're stuck
